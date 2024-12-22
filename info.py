@@ -26,7 +26,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rkhero1818:Ramesh@1717@romeo.res9w.mongodb.net/?retryWrites=true&w=majority&appName=Romeo")
-DATABASE_NAME = environ.get('DATABASE_NAME', "rkhero1818")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Romeo")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
